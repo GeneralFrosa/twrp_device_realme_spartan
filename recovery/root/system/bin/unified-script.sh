@@ -8,7 +8,7 @@ load_RMX3371IN()
       resetprop "ro.product.model" "RMX3371"
       resetprop "ro.product.device" "RE54E4L1"
       resetprop "ro.product.product.device" "RE54E4L1"
-      resetprop "ro.commonsoft.ota" "RE879AL1"
+      resetprop "ro.commonsoft.ota" "RE54E4L1"
       resetprop "ro.separate.soft" "21732"
 }
 
@@ -19,7 +19,7 @@ load_RMX3371ID/EU()
       resetprop "ro.product.model" "RMX3371"
       resetprop "ro.product.device" "RE54E4L1"
       resetprop "ro.product.product.device" "RE54E4L1"
-      resetprop "ro.commonsoft.ota" "RE879AL1"
+      resetprop "ro.commonsoft.ota" "RE54E4L1"
       resetprop "ro.separate.soft" "21733"
 }
 
