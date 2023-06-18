@@ -27,10 +27,10 @@ project=$(cat /proc/oplusVersion/prjName)
 echo $project
 
 case $project in
-     "2169A")
+     "21732")
          load_RMX3371IN
               ;;
-     "2169B")
+     "21733")
           load_RMX3371ID/EU
               ;;
            *)
