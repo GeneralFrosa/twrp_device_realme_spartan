@@ -46,7 +46,6 @@ PRODUCT_PACKAGES += \
     update_verifier \
     checkpoint_gc \
     update_engine_sideload
-    update_engine_client
     
 PRODUCT_PACKAGES += \
     qcom_decrypt \
