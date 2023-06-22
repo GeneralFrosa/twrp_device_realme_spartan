@@ -19,7 +19,7 @@ PRODUCT_TARGET_VNDK_VERSION := 31
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
-    POSTINSTALL_PATH_system=system/bin/oplusotapreopt_script \
+    POSTINSTALL_PATH_system=system/bin/otapreopt_script \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
  
@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
     bootctrl.$(PRODUCT_PLATFORM).recovery \
 
 PRODUCT_PACKAGES += \
-    oplusotapreopt_script \
+    otapreopt_script \
     cppreopts.sh \
     update_engine \
     update_verifier \
