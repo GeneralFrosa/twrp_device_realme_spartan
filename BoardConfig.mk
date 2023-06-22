@@ -186,6 +186,8 @@ BOARD_USES_QCOM_FBE_DECRYPTION := true
 
 # TWRP Specific Build FLags
 TW_NO_FLASH_CURRENT_TWRP := false
+TW_OZIP_DECRYPT_KEY := 0000
+TW_INCLUDE_LOGICAL := my_product my_engineering common_preload special_preload
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
